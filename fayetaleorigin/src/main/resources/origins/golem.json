@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "origins:no_shield",
+    "origins:extra_reach",
+    "fayetaleorigin:stone_skin",
+    "fayetaleorigin:golem_strength",
+    "fayetaleorigin:ore_eater",
+    "fayetaleorigin:increased_hunger",
+    "fayetaleorigin:pickaxe_weakness",
+    "fayetaleorigin:slam"
+  ],
+  "icon": "minecraft:stone_bricks",
+  "order": 2,
+  "impact": 2,
+  "name": "Stone Golem",
+  "description": "A being of living stone. Strong and resilient, but slow and vulnerable to mining tools."
+}

@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "fayetaleorigin:amass_rats",
+    "fayetaleorigin:scatter_rats",
+    "fayetaleorigin:two_hearts",
+    "origins:slow_falling",
+    "monsterorigins:apply_wither_effect"
+  ],
+  "icon": "minecraft:gray_wool",
+  "order": 16,
+  "impact": 2,
+  "name": "Rats in a Coat",
+  "description": "A surprising collective, capable of amassing power or scattering in an instant. Frail, but with a withering touch."
+}

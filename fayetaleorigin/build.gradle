@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+}
+
+group   = 'com.example.fayetaleorigin'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://repo.papermc.io/repository/maven-public/' }
+    flatDir { // Keep flatDir just in case
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    // Paper API (Required for Bukkit/Paper specific code)
+    compileOnly 'io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT'
+
+    // Origins-Reborn (Assuming it bundles everything else needed)
+    compileOnly files('libs/Origins-Reborn-2.8.4-all.jar')
+}
+
+tasks.wrapper {
+    gradleVersion    = '8.8' // Or your preferred version
+    distributionType = Wrapper.DistributionType.BIN
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

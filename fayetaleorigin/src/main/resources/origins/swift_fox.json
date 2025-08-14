@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "fayetaleorigin:swift_fox_dig",
+    "fayetaleorigin:swift_fox_speed",
+    "fayetaleorigin:swift_fox_strength",
+    "moborigins:timid_creature",
+    "moborigins:better_berries",
+    "moborigins:careful_gatherer",
+    "moborigins:sly",
+    "moborigins:item_collector",
+    "moborigins:small_fox",
+    "origins:slow_falling",
+    "fayetaleorigin:swift_fox_jump"
+  ],
+  "icon": "minecraft:sweet_berries",
+  "order": 15,
+  "impact": 1,
+  "name": "Windy Fox",
+  "description": "An agile and quick hunter, excelling in speed and precision, with natural fox-like traits.",
+  "unchoosable": true
+}

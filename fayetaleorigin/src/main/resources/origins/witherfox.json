@@ -1,0 +1,20 @@
+{
+  "powers": [
+    "monsterorigins:apply_wither_effect",
+    "origins:tailwind",
+    "moborigins:small_fox",
+    "moborigins:item_collector",
+    "origins:fire_immunity",
+    "monsterorigins:undead_ally",
+    "origins:carnivore",
+    "moborigins:careful_gatherer",
+    "fayetaleorigin:strength_in_numbers",
+    "fayetaleorigin:the_storm"
+  ],
+  "icon": "minecraft:wither_skeleton_skull",
+  "order": 13,
+  "impact": 1,
+  "name": "Wither Fox",
+  "description": "A creature drawing power from those nearby, growing stronger in a crowd.",
+  "unchoosable": true
+}
