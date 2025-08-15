@@ -1,8 +1,0 @@
-name: FayeTaleOrigin
-main: com.example.fayetaleorigin.FayetaleOrigins
-version: 1.0.0
-api-version: '1.21'
-depend:
-  - Origins-Reborn
-authors: [Gogless]
-description: FayeTale custom origin addon
