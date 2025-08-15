@@ -85,7 +85,7 @@ public class ForestBlindnessAbility implements VisibleAbility, Listener {
         }
     }
 
-    // Removed onAbilityRemove method
+
 
     @Override
     public void initialize(JavaPlugin plugin) {

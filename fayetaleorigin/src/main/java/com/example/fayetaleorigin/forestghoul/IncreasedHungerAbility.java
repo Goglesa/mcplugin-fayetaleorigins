@@ -11,7 +11,6 @@ import net.kyori.adventure.key.Key;
 
 public class IncreasedHungerAbility implements VisibleAbility, Listener {
 
-    // How much faster hunger drains (e.g., 1.2 = 20% faster drain from actions)
     private static final double HUNGER_MULTIPLIER = 1.2;
 
     public IncreasedHungerAbility() {}

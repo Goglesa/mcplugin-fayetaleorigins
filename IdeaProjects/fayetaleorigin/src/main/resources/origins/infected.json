@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "magicorigins:silent",
+    "fayetaleorigin:sculk_heart",
+    "fayetaleorigin:sculk_veil"
+  ],
+  "icon": "minecraft:sculk_sensor",
+  "order": 1,
+  "impact": 2,
+  "name": "Infected",
+  "unchoosable": true,
+  "description": "The sculk has begun to spread through your body, granting you unnatural stealth and allowing you to merge with the sculk itself."
+}

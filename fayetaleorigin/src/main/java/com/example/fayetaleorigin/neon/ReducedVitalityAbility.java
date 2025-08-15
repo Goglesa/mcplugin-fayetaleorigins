@@ -56,6 +56,6 @@ public class ReducedVitalityAbility implements VisibleAbility, AttributeModifier
 
     @Override
     public void initialize(JavaPlugin plugin) {
-        // No listeners needed
+
     }
 }

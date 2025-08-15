@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins:water_vulnerability",
+    "fayetaleorigin:nightvisionability",
+    "fayetaleorigin:quick",
+    "moborigins:small_bug",
+    "fantasyorigins:infinite_night_vision",
+    "fantasyorigins:small_body",
+    "fayetaleorigin:tremor_sense"
+  ],
+  "icon": "minecraft:stone",
+  "order": 1,
+  "impact": 2,
+  "name": "Antling",
+  "description": "The Antling loves to live in mountains and underground areas."
+}

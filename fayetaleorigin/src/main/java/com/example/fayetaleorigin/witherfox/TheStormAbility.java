@@ -105,7 +105,7 @@ public class TheStormAbility implements VisibleAbility, Listener, CooldownAbilit
     @EventHandler(priority = EventPriority.HIGH) public void onDropItem(PlayerDropItemEvent event) { if (isStormItem(event.getItemDrop().getItemStack())) { runForAbility(event.getPlayer(), p -> event.setCancelled(true)); } }
     @EventHandler(priority = EventPriority.HIGH) public void onPlayerDeath(PlayerDeathEvent event) { runForAbility(event.getEntity(), p -> event.getDrops().removeIf(this::isStormItem)); }
 
-    // --- Activation ---
+
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent event) {
         if (!event.getAction().isRightClick()) return;

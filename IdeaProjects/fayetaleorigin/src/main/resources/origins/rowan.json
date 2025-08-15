@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "fantasyorigins:infinite_night_vision",
+    "fayetaleorigin:sculk_symbiosis",
+    "fayetaleorigin:wardens_bane",
+    "fayetaleorigin:sculk_presence",
+    "magicorigins:silent",
+    "fayetaleorigin:sculk_resonance"
+  ],
+  "icon": "minecraft:book",
+  "order": 12,
+  "impact": 3,
+  "name": "Sculk Hunter",
+  "description": "Once a scholar, now driven to understand and eradicate the sculk that consumed their friend.",
+  "unchoosable": true
+}

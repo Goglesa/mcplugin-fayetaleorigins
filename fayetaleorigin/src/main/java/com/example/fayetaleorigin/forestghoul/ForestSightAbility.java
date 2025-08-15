@@ -79,7 +79,7 @@ public class ForestSightAbility implements VisibleAbility, Listener {
             }
         }
 
-        // Entities that should no longer glow for this player
+
         Set<UUID> toTurnOff = new HashSet<>(wasGlowingPreviously);
         toTurnOff.removeAll(shouldGlowNow);
         for (UUID targetId : toTurnOff) {
@@ -89,7 +89,7 @@ public class ForestSightAbility implements VisibleAbility, Listener {
             }
         }
 
-        // Refresh glowing for all entities that should be glowing
+
         for (UUID targetId : shouldGlowNow) {
             Entity target = Bukkit.getEntity(targetId);
             if (target != null) {
@@ -97,7 +97,7 @@ public class ForestSightAbility implements VisibleAbility, Listener {
             }
         }
 
-        // Update the state for the next check
+
         currentlyGlowingForPlayer.put(sourceId, shouldGlowNow);
     }
 
