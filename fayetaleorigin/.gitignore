@@ -40,3 +40,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+temp_jar_contents/
+*.class
+*.jar
